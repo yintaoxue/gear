@@ -1,8 +1,5 @@
 ### Gear
-====
 
-
-### Casely
 A Java HTML parser, forked from [jsoup](http://jsoup.org/)
 
 A Java library for working with real-world HTML. 
