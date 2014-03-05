@@ -1,6 +1,6 @@
 package org.codeset.gear.examples;
 
-import org.codeset.gear.Jsoup;
+import org.codeset.gear.Gear;
 import org.codeset.gear.helper.Validate;
 import org.codeset.gear.nodes.Document;
 import org.codeset.gear.nodes.Element;
@@ -17,7 +17,7 @@ public class ListLinks {
         String url = args[0];
         print("Fetching %s...", url);
 
-        Document doc = Jsoup.connect(url).get();
+        Document doc = Gear.connect(url).get();
         Elements links = doc.select("a[href]");
         Elements media = doc.select("[src]");
         Elements imports = doc.select("link[href]");

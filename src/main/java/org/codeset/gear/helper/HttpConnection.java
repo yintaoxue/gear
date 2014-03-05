@@ -19,7 +19,7 @@ import java.util.zip.GZIPInputStream;
 
 /**
  * Implementation of {@link Connection}.
- * @see org.codeset.gear.Jsoup#connect(String) 
+ * @see org.codeset.gear.Gear#connect(String) 
  */
 public class HttpConnection implements Connection {
     public static Connection connect(String url) {

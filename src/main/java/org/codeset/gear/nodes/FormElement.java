@@ -1,7 +1,7 @@
 package org.codeset.gear.nodes;
 
 import org.codeset.gear.Connection;
-import org.codeset.gear.Jsoup;
+import org.codeset.gear.Gear;
 import org.codeset.gear.helper.HttpConnection;
 import org.codeset.gear.helper.Validate;
 import org.codeset.gear.parser.Tag;
@@ -59,7 +59,7 @@ public class FormElement extends Element {
         Connection.Method method = attr("method").toUpperCase().equals("POST") ?
                 Connection.Method.POST : Connection.Method.GET;
 
-        Connection con = Jsoup.connect(action)
+        Connection con = Gear.connect(action)
                 .data(formData())
                 .method(method);
 

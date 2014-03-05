@@ -18,7 +18,7 @@ import java.util.List;
  It is assumed that the input HTML is a body fragment; the clean methods only pull from the source's body, and the
  canned white-lists only allow body contained tags.
  <p/>
- Rather than interacting directly with a Cleaner object, generally see the {@code clean} methods in {@link org.codeset.gear.Jsoup}.
+ Rather than interacting directly with a Cleaner object, generally see the {@code clean} methods in {@link org.codeset.gear.Gear}.
  */
 public class Cleaner {
     private Whitelist whitelist;

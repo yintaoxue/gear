@@ -22,7 +22,7 @@ public class Document extends Element {
     /**
      Create a new, empty Document.
      @param baseUri base URI of document
-     @see org.codeset.gear.Jsoup#parse
+     @see org.codeset.gear.Gear#parse
      @see #createShell
      */
     public Document(String baseUri) {

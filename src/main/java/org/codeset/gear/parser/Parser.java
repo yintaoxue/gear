@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * Parses HTML into a {@link org.codeset.gear.nodes.Document}. Generally best to use one of the  more convenient parse methods
- * in {@link org.codeset.gear.Jsoup}.
+ * in {@link org.codeset.gear.Gear}.
  */
 public class Parser {
     private static final int DEFAULT_MAX_ERRORS = 0; // by default, error tracking is disabled.

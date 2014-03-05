@@ -1,6 +1,6 @@
 package org.codeset.gear.examples;
 
-import org.codeset.gear.Jsoup;
+import org.codeset.gear.Gear;
 import org.codeset.gear.helper.StringUtil;
 import org.codeset.gear.helper.Validate;
 import org.codeset.gear.nodes.Document;
@@ -27,7 +27,7 @@ public class HtmlToPlainText {
         String url = args[0];
 
         // fetch the specified URL and parse to a HTML DOM
-        Document doc = Jsoup.connect(url).get();
+        Document doc = Gear.connect(url).get();
 
         HtmlToPlainText formatter = new HtmlToPlainText();
         String plainText = formatter.getPlainText(doc);

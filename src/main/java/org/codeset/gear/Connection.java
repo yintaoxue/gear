@@ -11,7 +11,7 @@ import java.io.IOException;
 /**
  * A Connection provides a convenient interface to fetch content from the web, and parse them into Documents.
  * <p>
- * To get a new Connection, use {@link org.codeset.gear.Jsoup#connect(String)}. Connections contain {@link Connection.Request}
+ * To get a new Connection, use {@link org.codeset.gear.Gear#connect(String)}. Connections contain {@link Connection.Request}
  * and {@link Connection.Response} objects. The request objects are reusable as prototype requests.
  * <p>
  * Request configuration can be made using either the shortcut methods in Connection (e.g. {@link #userAgent(String)}),
