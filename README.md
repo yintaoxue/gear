@@ -2,7 +2,7 @@
 
 A Java HTML parser.
 
-Inspired by [jsoup](http://jsoup.org/)
+Forked from [jsoup](http://jsoup.org/)
 
 ## License
 <pre>
