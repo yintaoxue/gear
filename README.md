@@ -1,10 +1,8 @@
 ## Gear
 
-A Java HTML parser, forked from [jsoup](http://jsoup.org/)
+A Java HTML parser.
 
-A Java library for working with real-world HTML. 
-
-It provides a very convenient API for extracting and manipulating data, using the best of DOM, CSS, and jquery-like methods.
+Inspired by [jsoup](http://jsoup.org/)
 
 ## License
 <pre>
