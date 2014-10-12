@@ -1,8 +1,6 @@
 ## Gear
 
-A Java HTML parser.
-
-Forked from [jsoup](http://jsoup.org/)
+Common Utils.
 
 ## License
 <pre>
