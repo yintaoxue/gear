@@ -10,7 +10,7 @@
 	<name>gear</name>
 	<url>http://codeset.org</url>
 
-	<description>Gear HTML parser</description>
+	<description>Common Utils</description>
 	<inceptionYear>2014</inceptionYear>
 	<issueManagement>
 		<system>GitHub</system>
